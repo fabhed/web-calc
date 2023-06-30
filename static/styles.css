@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.calculator {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.calculator input,
+.calculator select,
+.calculator button {
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+}
+
+.calculator p {
+    margin-top: 20px;
+    font-weight: bold;
+}
